@@ -3,8 +3,8 @@
       name<-list.files(directory)[id]
       data.name<-lapply(paste0("specdata/",name),read.csv,header=T)
       total<-do.call(rbind, data.name)
-      a<-mean(na.omit(total[[pollutant]]))
-      print(round(a,digits=3))
+        a<-mean(na.omit(total[[pollutant]]))
+        print(round(a,digits=3))
   } 
   
   pollutantmean("specdata","nitrate", 23)
