@@ -43,6 +43,5 @@ makeCacheMatrix<-function(x, ...) {
 
 cacheSolve<-function(x=list()) {
         x<-cache
-        x
-
+        print(x)
 }
