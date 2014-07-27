@@ -33,3 +33,16 @@ cachemean <- function(x, ...) {
         x$setmean(m)
         m
 }
+
+
+makeCacheMatrix<-function(x, ...) {
+        solve(x)<<-cache
+        m<-cache
+        m
+}
+
+cacheSolve<-function(x=list()) {
+        x<-cache
+        x
+
+}
