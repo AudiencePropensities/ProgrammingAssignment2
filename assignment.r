@@ -43,5 +43,5 @@ makeCacheMatrix<-function(x, ...) {
 
 cacheSolve<-function(x=list()) {
         x<-cache
-        print(x)
+        return x
 }
